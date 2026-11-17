@@ -29,8 +29,8 @@ const CARDS: Card[] = [
   {
     icon: Mail,
     title: "Email",
-    value: "aakashgugilla559@gmail.com",
-    href: "mailto:aakashgugilla559@gmail.com",
+    value: "junaid.aziz.dev@gmail.com",
+    href: "mailto:junaid.aziz.dev@gmail.com",
     external: false,
     iconClass: "bg-gradient-to-br from-violet-500 to-indigo-600 text-white",
     glowClass: "shadow-[0_0_30px_rgba(124,58,237,0.22)]",
@@ -38,8 +38,8 @@ const CARDS: Card[] = [
   {
     icon: GithubIcon,
     title: "GitHub",
-    value: "github.com/Gugilla-Aakash",
-    href: "https://github.com/Gugilla-Aakash",
+    value: "github.com/junaidaziz68",
+    href: "https://github.com/junaidaziz68",
     external: true,
     iconClass: "bg-white/10 text-white",
     glowClass: "shadow-[0_0_30px_rgba(59,130,246,0.2)]",
@@ -47,8 +47,8 @@ const CARDS: Card[] = [
   {
     icon: LinkedinIcon,
     title: "LinkedIn",
-    value: "linkedin.com/in/gugilla-aakash",
-    href: "https://www.linkedin.com/in/gugilla-aakash",
+    value: "linkedin.com/in/junaidaziz786",
+    href: "https://www.linkedin.com/in/junaidaziz786/",
     external: true,
     iconClass: "bg-[#0A66C2] text-white",
     glowClass: "shadow-[0_0_30px_rgba(37,99,235,0.22)]",
@@ -56,8 +56,8 @@ const CARDS: Card[] = [
   {
     icon: MapPin,
     title: "Location",
-    value: "Hyderabad, India",
-    href: "https://www.google.com/maps/place/Hyderabad",
+    value: "Coventry, UK",
+    href: "https://www.google.com/maps/place/Coventry,+UK",
     external: true,
     iconClass: "bg-gradient-to-br from-violet-500 to-indigo-600 text-white",
     glowClass: "shadow-[0_0_30px_rgba(124,58,237,0.22)]",
@@ -72,8 +72,8 @@ type Pill = {
 };
 
 const PILLS: Pill[] = [
-  { icon: GithubIcon, label: "GitHub", href: "https://github.com/Gugilla-Aakash", iconClass: "text-white" },
-  { icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/gugilla-aakash", iconClass: "text-[#4ea1f3]" },
+  { icon: GithubIcon, label: "GitHub", href: "https://github.com/junaidaziz68", iconClass: "text-white" },
+  { icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/junaidaziz786/", iconClass: "text-[#4ea1f3]" },
 ];
 
 const SUBJECT_OPTIONS = [

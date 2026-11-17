@@ -22,35 +22,35 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aakashgugilla.is-a.dev"),
-  applicationName: "Aakash — Portfolio",
-  title: "Aakash — I build solutions for a better tomorrow",
+  applicationName: "Junaid -Portfolio",
+  title: "Junaid",
   description:
     "Aakash is a passionate developer turning ideas into real-world applications with focus on impact, usability, and innovation. Based in Hyderabad, India.",
   keywords: ["Aakash", "developer", "portfolio", "full-stack", "Hyderabad"],
-  authors: [{ name: "Aakash" }],
+  authors: [{ name: "Junaid" }],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Aakash — I build solutions for a better tomorrow",
+    title: "Junaid — I build solutions for a better tomorrow",
     description:
       "A passionate developer who loves turning ideas into real-world applications.",
     type: "website",
     url: "https://aakashgugilla.is-a.dev",
-    siteName: "Aakash — Portfolio",
+    siteName: "Junaid — Portfolio",
     locale: "en_US",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Aakash — I build solutions for a better tomorrow",
+        alt: "Junaid — I build solutions for a better tomorrow",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aakash — I build solutions for a better tomorrow",
+    title: "Junaid — I build solutions for a better tomorrow",
     description:
       "A passionate developer who loves turning ideas into real-world applications.",
     images: ["/og.jpg"],
@@ -63,16 +63,16 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-      name: "Aakash",
+      name: "Junaid",
       url: "https://aakashgugilla.is-a.dev",
       sameAs: [
-        "https://github.com/Gugilla-Aakash",
-        "https://www.linkedin.com/in/gugilla-aakash",
+        "https://github.com/junaidaziz68",
+        "https://www.linkedin.com/in/junaidaziz786/",
       ],
     },
     {
       "@type": "WebSite",
-      name: "Aakash — I build solutions for a better tomorrow",
+      name: "Junaid — I build solutions for a better tomorrow",
       url: "https://aakashgugilla.is-a.dev",
     },
   ],

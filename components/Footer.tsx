@@ -11,13 +11,13 @@ import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 const EASE = [0.22, 1, 0.36, 1] as const;
 
 const SOCIALS = [
-  { label: "GitHub", href: "https://github.com/Gugilla-Aakash", Icon: GithubIcon, iconClass: "text-white" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/gugilla-aakash", Icon: LinkedinIcon, iconClass: "text-[#4ea1f3]" },
+  { label: "GitHub", href: "https://github.com/junaidaziz68", Icon: GithubIcon, iconClass: "text-white" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/junaidaziz786", Icon: LinkedinIcon, iconClass: "text-[#4ea1f3]" },
 ];
 
 const OTHERS = [
-  { label: "GitHub", href: "https://github.com/Gugilla-Aakash" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/gugilla-aakash" },
+  { label: "GitHub", href: "https://github.com/junaidaziz68" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/junaidaziz786" },
 ];
 
 const DIVIDER = "min-w-0 lg:border-l lg:border-white/10 lg:pl-10";
@@ -215,7 +215,7 @@ export default function Footer() {
           className="mt-10 flex flex-col items-center gap-2.5 rounded-xl border border-white/10 bg-[#0a051c]/70 px-5 py-3.5 backdrop-blur-md sm:flex-row sm:justify-between sm:gap-4 lg:mt-14"
         >
           <p className="text-center text-[13.5px] text-white/55 sm:text-left">
-            © 2026 Aakash. All rights reserved.
+            © 2026 Junaid Aziz . All rights reserved.
             <span className="mx-1.5 text-white/25">|</span>
             <Link
               href="/privacy"
@@ -237,7 +237,7 @@ export default function Footer() {
             </span>
           </div>
           <p className="flex flex-wrap items-center justify-center gap-x-1.5 gap-y-1 text-center text-[13.5px] text-white/55">
-            Made with <Heart className="h-3.5 w-3.5 fill-[#ff5c8a] text-[#ff5c8a]" /> in India
+            Made with <Heart className="h-3.5 w-3.5 fill-[#ff5c8a] text-[#ff5c8a]" /> in Coventry, UK
             <span className="mx-1 text-white/25">|</span>
             Keep Building <ArrowRight className="h-3.5 w-3.5" />
           </p>

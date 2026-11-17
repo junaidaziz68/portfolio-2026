@@ -39,13 +39,13 @@ function useISTClock() {
   useEffect(() => {
     const tick = () =>
       setTime(
-        new Intl.DateTimeFormat("en-IN", {
-          hour: "2-digit",
-          minute: "2-digit",
-          second: "2-digit",
-          hour12: true,
-          timeZone: "Asia/Kolkata",
-        }).format(new Date())
+      new Intl.DateTimeFormat("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true,
+        timeZone: "GMT",
+      }).format(new Date())
       );
     tick();
     const id = setInterval(tick, 1000);
@@ -91,7 +91,7 @@ export default function HeroContent() {
         className="transition-transform duration-150 ease-out"
       >
         <h1 className="font-display text-gradient-aakash cursor-default text-[clamp(3.5rem,9vw,6.5rem)] font-extrabold leading-[0.95] tracking-tight">
-          Aakash
+         Junaid
         </h1>
         <h2 className="font-display mt-3 text-[clamp(1.6rem,4vw,2.6rem)] font-bold leading-[1.08] tracking-tight text-white">
           I build solutions
@@ -127,7 +127,7 @@ export default function HeroContent() {
           <ArrowRight className="h-[18px] w-[18px] transition-transform duration-300 group-hover:translate-x-1.5" />
         </a>
         <a
-          href="/resume.pdf"
+          href="/JSoftwareEngineer_2026.pdf"
           target="_blank"
           rel="noreferrer"
           title="Open résumé (PDF)"
@@ -147,14 +147,14 @@ export default function HeroContent() {
         className="mt-6 flex items-center gap-3"
       >
         <SocialButton
-          href="https://github.com/Gugilla-Aakash"
-          label="GitHub — Gugilla-Aakash"
+          href="https://github.com/junaidaziz68"
+          label="GitHub — Junaid Aziz"
         >
           <GithubIcon className="h-5 w-5" />
         </SocialButton>
         <SocialButton
-          href="https://www.linkedin.com/in/gugilla-aakash"
-          label="LinkedIn — gugilla-aakash"
+          href="https://linkedin.com/in/junaidaziz786 "
+          label="LinkedIn — Junaid Aziz"
         >
           <LinkedinIcon className="h-5 w-5" />
         </SocialButton>
@@ -177,11 +177,11 @@ export default function HeroContent() {
       >
         <span className="inline-flex items-center gap-1.5">
           <MapPin className="h-4 w-4 text-violet-400" />
-          Currently in Hyderabad, India
+          Currently in Coventry, UK
         </span>
         {ist && (
           <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1 font-mono text-[12px] text-white/60">
-            IST {ist}
+            GMT {ist}
           </span>
         )}
       </motion.div>

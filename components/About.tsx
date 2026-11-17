@@ -23,11 +23,11 @@ const EASE = [0.22, 1, 0.36, 1] as const;
 const BADGES = [
   {
     icon: GraduationCap,
-    value: "B.Tech CSE (AI/ML)",
-    label: "Mahatma Gandhi Institute of Technology (MGIT)",
+    value: "Bsc Computer Science (AI/ML)",
+    label: "Coventry University",
   },
-  { icon: MapPin, value: "Hyderabad, India", label: "Based In" },
-  { icon: CalendarDays, value: "Expected 2029", label: "Undergraduate" },
+  { icon: MapPin, value: "Coventry, United Kingdom", label: "Based In" },
+  { icon: CalendarDays, value: "Graduated  2026", label: "Undergraduate" },
 ];
 
 const ENJOY = [
@@ -85,7 +85,7 @@ export default function About() {
               transition={{ duration: 0.7, delay: 0.18 }}
               className="mt-6 max-w-xl text-base leading-relaxed text-white/60 sm:text-lg"
             >
-              I&apos;m Aakash, a Computer Science student (AI/ML) who loves turning ideas into
+              I&apos;m Junaid, a Software Engineer and aspiring AI engineer  who loves turning ideas into
               real-world applications. I enjoy exploring technology, learning new things, and
               building solutions that create impact.
             </motion.p>

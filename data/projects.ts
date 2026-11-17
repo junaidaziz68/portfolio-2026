@@ -37,15 +37,15 @@ export const PROJECTS: Project[] = [
     image: "/project-hakiapi-docs.png",
   },
   {
-    id: "github-analyzer",
-    name: "AI GitHub Profile Analyzer",
+    id: "LumaCV",
+    name: "AI CV analyser and skills recommendation system",
     oneliner:
-      "AI-powered GitHub developer intelligence — audits, scores, and lets you chat about any profile.",
-    liveUrl: "https://ai-git-hub-profile-analyzer.vercel.app/",
-    githubUrl: "https://github.com/Gugilla-Aakash/AI-GitHub-Profile-Analyzer",
+      "AI-powered CV analyser that recommends certifcation and courses to upskill.",
+    liveUrl: "https://lumacv.vercel.app/",
+    githubUrl: "https://github.com/junaidaziz68/LumaCV",
     category: "AI / ML",
     tags: ["Full-Stack", "AI Chatbot", "Dev Tools"],
-    image: "/project-github-analyzer.png",
+    image: "/Lumacv.png",
   },
   {
     id: "shieldsense",
@@ -59,15 +59,15 @@ export const PROJECTS: Project[] = [
     image: "/project-shieldsense.png",
   },
   {
-    id: "resume-matcher",
-    name: "Resume Matcher",
+    id: "Heart Perdiction System",
+    name: "MLP Heart Disease Prediction System",
     oneliner:
-      "NLP-powered resume-to-job matcher with TF-IDF similarity scoring and skill extraction.",
-    liveUrl: "https://resume-screening-ml-xnnbsouaxd4onthir8k27g.streamlit.app/",
-    githubUrl: "https://github.com/Gugilla-Aakash/resume-screening-ml",
+      "MLP heart disease perdiction model.",
+    liveUrl: "https://colab.research.google.com/drive/11E32CWwxNBWNhXo9y20Hy4r3IocF_PAw?usp=sharing",
+    githubUrl: "https://github.com/junaidaziz68/HeartPredicition_ML-Model",
     category: "AI / ML",
     tags: ["NLP", "Machine Learning", "Web App"],
-    image: "/project-resume.png",
+    image: "/download.png",
   },
   {
     id: "weather",
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     oneliner:
       "Security-first weather dashboard with a serverless API proxy and real-time AQI data.",
     liveUrl: "https://weather-dashboard-two-iota.vercel.app/",
-    githubUrl: "https://github.com/Gugilla-Aakash/weather-dashboard",
+    githubUrl: "https://github.com/junaidaziz68/weather-dashboard",
     category: "Web Apps",
     tags: ["Web App", "Vanilla JS", "Serverless"],
     image: "/project-weather.png",

@@ -55,8 +55,8 @@ export default function Navbar() {
         <a href="#top" className="group flex items-center gap-2.5">
           <span className="relative block h-10 w-10 overflow-hidden rounded-xl">
             <Image
-              src="/logo.webp"
-              alt="Aakash logo"
+              src="/JA Portfolio Logo.png"
+              alt="Junaid logo"
               width={80}
               height={80}
               className="h-full w-full scale-125 object-cover mix-blend-screen transition-transform duration-300 group-hover:scale-150"
@@ -64,7 +64,7 @@ export default function Navbar() {
             />
           </span>
           <span className="font-display text-xl font-semibold tracking-tight text-white">
-            Aakash
+            Junaid Aziz
           </span>
         </a>
 
@@ -96,7 +96,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="hidden lg:block">
-          <MagneticButton href="https://www.linkedin.com/in/gugilla-aakash">
+          <MagneticButton href="https://www.linkedin.com/in/junaidaziz786">
             Let&apos;s Connect
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </MagneticButton>
@@ -153,7 +153,7 @@ export default function Navbar() {
               ))}
               <li className="pt-2">
                 <a
-                  href="https://www.linkedin.com/in/gugilla-aakash"
+                  href="https://www.linkedin.com/in/junaidaziz786"
                   target="_blank"
                   rel="noreferrer"
                   className="btn-primary-glow flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-5 py-3 text-sm font-semibold text-white"
